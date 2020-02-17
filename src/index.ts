@@ -16,11 +16,11 @@ const main = async () => {
       ? process.argv[2].slice(0, -1)
       : process.argv[2];
   const gatsbyProjectName = process.argv[3];
-  // const returnCode = await createGatsbyProject(gatsbyProjectName);
-  // if (returnCode != 0) {
-  //   process.exit();
-  // }
-  // await transferWebflowFiles(webflowFolderPath, gatsbyProjectName);
+  const returnCode = await createGatsbyProject(gatsbyProjectName);
+  if (returnCode != 0) {
+    process.exit();
+  }
+  await transferWebflowFiles(webflowFolderPath, gatsbyProjectName);
   injectIndexFile(webflowFolderPath, gatsbyProjectName);
 };
 
