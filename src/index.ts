@@ -112,7 +112,7 @@ const injectIndexFile = (
     );
     imageImports.forEach(imageImport => stream.write(imageImport + '\n'));
     stream.write('export default () => (\n');
-    stream.write('<div class="body">');
+    stream.write('<div className="body">');
     stream.write(formattedJsx);
     stream.write('</div>');
     stream.write(')');
