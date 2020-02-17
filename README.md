@@ -1,6 +1,6 @@
 <img height="71" width="500" alt="typescript-starter dark logo" src="https://user-images.githubusercontent.com/16015833/74645771-d209bb80-5178-11ea-8c8a-80fa008e7793.png">
 
-Generate a gatsby project from webflow code export
+Generate a Gatsby project from Webflow code export
 
 ## Start Now
 
@@ -21,3 +21,9 @@ npm run develop
 ```
 
 Your app is served on `localhost:8000` by default.
+
+## To-Do
+
+- [ ] Test on Windows
+- [ ] Handle srcSet
+- [ ] Add unit tests
