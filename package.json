@@ -1,7 +1,7 @@
 {
   "name": "webflow-to-gatsby",
   "version": "1.0.0",
-  "description": "Generate a gatsby project from webflow zip file",
+  "description": "Generate a gatsby project from webflow",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
@@ -9,6 +9,7 @@
   "license": "MIT",
   "keywords": [],
   "scripts": {
+    "start": "run-s build && node ./build/main/index.js",
     "describe": "npm-scripts-info",
     "build": "run-s clean && run-p build:*",
     "build:main": "tsc -p tsconfig.json",
@@ -50,6 +51,9 @@
     "node": ">=8.9"
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.16",
+    "cheerio": "^1.0.0-rc.3",
+    "htmltojsx": "^0.3.0",
     "sha.js": "^2.4.11"
   },
   "devDependencies": {
