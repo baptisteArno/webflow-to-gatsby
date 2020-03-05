@@ -1,4 +1,4 @@
-<img height="71" width="500" alt="typescript-starter dark logo" src="https://user-images.githubusercontent.com/16015833/74645771-d209bb80-5178-11ea-8c8a-80fa008e7793.png">
+<img width="500" alt="typescript-starter dark logo" src="https://user-images.githubusercontent.com/16015833/76012954-6e70e380-5f17-11ea-9a17-7c1af3b2cf64.png" style="max-width:100%;">
 
 Generate a Gatsby project from Webflow code export
 
