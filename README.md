@@ -20,6 +20,11 @@
 
 ## Start Now
 
+Install the Gatsby CLI
+```
+npm install -g gatsby-cli
+```
+
 Run one simple command to install and use the project generator. You'll need [Node](https://nodejs.org/) `v10` or later.
 
 ```bash
